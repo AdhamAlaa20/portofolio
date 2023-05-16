@@ -70,7 +70,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #333;
+    color: goldenrod;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -87,7 +87,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: rgb(29, 29, 85);
+    background: #111111;
 }
 .navbar .max-width{
     display: flex;
@@ -188,7 +188,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #333;
+    color: goldenrod;
     font-weight: 500;
 }
 .home .home-content a{
@@ -301,7 +301,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "what I know";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -358,24 +358,24 @@ section .title::after{
     background: #333;
 }
 .skills-content .right .html::before{
-    width: 80%;
-}
-.skills-content .right .css::before{
     width: 85%;
 }
+.skills-content .right .css::before{
+    width: 90%;
+}
 .skills-content .right .js::before{
-    width: 70%;
+    width: 85%;
 }
 .skills-content .right .php::before{
     width: 90%;
 }
-.skills-content .right .mysql::before{
-    width: 65%;
+.skills-content .right .node::before{
+    width: 80%;
 }
 
 /* teams section styling */
 .teams .title::after{
-    content: "What i learnt";
+    content: "What I learnt";
 }
 .teams .carousel .card{
     background: #222;
@@ -438,7 +438,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "Get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -541,7 +541,7 @@ footer{
     text-align: center;
 }
 footer span {
-    color: #333;
+    color: goldenrod;
     text-decoration: none;
 }
 footer span a:hover{
