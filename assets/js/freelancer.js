@@ -97,14 +97,14 @@ $(document).ready(function(){
 
   // typing text animation script
   var typed = new Typed(".typing", {
-      strings: ["Mentor.", "Open-Source Contributor.", "Frontend Developer.", "Good listener.", "Reader."],
+      strings: ["Tutor.", "Backend Developer.", "Frontend Developer."],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true
   });
 
   var typed = new Typed(".typing-2", {
-      strings: ["Mentor.", "Open-Source Contributor.", "Frontend Developer.", "Good listener.", "Reader."],
+      strings: ["Tutor.", "Backend Developer.", "Frontend Developer."],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true
