@@ -211,9 +211,11 @@ section .title::after{
 /* about section styling */
 .about .title::after{
     content: "who I am";
+    background-color: bisque;
+
 }
-.about .about-content .left{
-    width: 45%;
+.about{
+    background-color: bisque;
 }
 .about .about-content .left img{
     height: 400px;
@@ -229,8 +231,8 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
-.about .about-content .right .text span{
-    color: #333;
+.about .about-content .text span{
+    color: goldenrod;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -267,7 +269,7 @@ section .title::after{
     content: "what i do";
 }
 .services .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(50% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -302,6 +304,11 @@ section .title::after{
 
 .skills .title::after{
     content: "what I know";
+    background-color: bisque;
+
+}
+.skills{
+    background-color: bisque;
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -366,7 +373,7 @@ section .title::after{
 .skills-content .right .js::before{
     width: 85%;
 }
-.skills-content .right .php::before{
+.skills-content .right .btstrp::before{
     width: 90%;
 }
 .skills-content .right .node::before{
@@ -439,6 +446,10 @@ section .title::after{
 /* contact section styling */
 .contact .title::after{
     content: "Get in touch";
+    background-color: bisque;
+}
+.contact{
+    background-color: bisque;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -469,12 +480,22 @@ section .title::after{
 .contact .contact-content .info .head{
     font-weight: 500;
 }
-.contact .contact-content .info .sub-title{
-    color: #333;
+.contact .contact-content .info .sub-title a{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #111;
+    text-decoration: none !important;
 }
-.contact .right form .fields{
+.contact .contact-content .info .sub-title a:hover{
+    color: goldenrod;
+    text-decoration: none !important;
+}
+.contact .right form .fields {
     display: flex;
+    background-color: bisque;
 }
+
 .contact .right form .field,
 .contact .right form .fields .field{
     height: 45px;
