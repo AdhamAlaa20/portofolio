@@ -409,12 +409,13 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: bisque;
 }
 .teams .carousel .card img{
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 250px;
+    border-radius:25px;
     object-fit: cover;
-    border-radius: 50%;
     border: 3px solid #333;
     transition: all 0.3s ease;
 }
