@@ -174,6 +174,7 @@ section .title::after{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+
     background-position: center center;
 }
 .home .max-width{
