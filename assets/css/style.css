@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
@@ -164,14 +166,15 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("../img/galaxy-960.jpg") no-repeat center;
+    background: url("../img/galaxy-960.jpg") no-repeat;
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    width: auto !important;
+    width: 100% !important;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    background-position: center center;
 }
 .home .max-width{
     margin: auto 0 auto 30px;
